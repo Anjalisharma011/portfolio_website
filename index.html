@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+        <style>
+#header {
+ background-image: url(left.avif);
+}
+    </style>
+    <script src="https://kit.fontawesome.com/7e3471dc1f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                               <p>Web Developer, Programmer</p>
+                <h1>Hi, I'm Anjali Sharma</h1>
+                         </div>
+        </div> 
+    </div>  
+      <!-- ------------about-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                  <img src="IMG_8030.jpg" alt="" >
+               </div>
+                <div class="about-col-2">
+                   <h1 class="sub-title">About Me</h1>  
+                 <p>As a computer science and engineering student, I am passionate about using technology to solve problems and create innovative solutions. 
+                    In addition to my academic pursuits, I am actively involved in extracurricular activities.For example, I am a member of the ethical cum socio-cultural society.
+                    Looking to the future, I am eager to leverage my skills and passion for technology to make a positive impact on society. I am excited to connect with professionals in the industry and explore opportunities to further develop my skills and contribute to innovative projects.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience </p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages:</span><br>C, C++(Proficient), Python, JavaScript, ReactJS, HTML, CSS, SQL, Typescript (Basics)</li>
+                            <li><span>Frameworks & Libraries:</span><br>ReactJS, Node.js, NEXT.js</li>
+                            <li><span>Tools:</span><br>Git/GitHub, MS Office, VS Code, PyCharm, Netlify, Figma(Basics)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>IBM</span> &emsp;<a href="IMG_1084.jpg"><sub><em>Certificate</em></sub></a>
+                                <br>Frontend development intern<sub><i>  &emsp;July 2024-current</i></sub><br>Improved my skills in designing and implementing user interfaces, user experiences, and interactive web pages.
+                                 and utilized version control systems like Git and collaborated with teams using Agile methodologies </li>
+                                <li><span>Dignique Tech labs</span>&emsp;<a href="IMG_1127.jpg"><sub><em>Certificate</em></sub></a>
+                                     <br>Full-stack development internship<sub><i>  &emsp;July 2023 – September 2023</i></sub><br>
+                                    Completed intensive full-stack development internship, mastering front-end and back-end technologies. Fostered a highly
+                                    responsive web interface using React, enhancing user interactivity by 30%.</li>
+                                   <li><span>Techfest IIT Bombay</span>&emsp;<a href="Iit bombay.png"><sub><em>Certificate</em></sub></a><br>
+                                    Social Media Marketing intern<sub><i>  &emsp;April 2023 – June 2023</i></sub><br>Actively participated in team meetings and collaborative brainstorming sessions. Contributed innovative ideas and
+                                    strategic recommendations, resulting in a 15% increase in online engagement. </li>
+                                   </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-Current</span><br> GPA-8.1/10<br>B.Tech in Computer Science and Engineering</li>
+                            <li><span>2020-2021</span><br>Percentage-91.6<br>Intermediate (Nalanda Public School)</li>
+                            <li><span>2018-2019</span><br>Percentage-89.6<br>High School (Nalanda Public School)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------services--------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>As a front-end developer, I specialize in crafting captivating and responsive web experiences that engage users and elevate brands. With a passion for design and a keen eye for detail, I bring ideas to life through clean, efficient, and innovative code.</p>
+                   
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p> As a web designer, I specialize in crafting captivating digital experiences that seamlessly blend aesthetics with functionality. With a deep understanding of design principles and user-centered design, I transform concepts into visually stunning and intuitive websites that leave a lasting impression.</p>
+                    
+                </div>                
+                <div>
+                    <i class="fa-solid fa-chalkboard"></i>
+                    <h2>Machine Learning</h2>
+                    <p>As a machine learning enthusiast with a passion for data-driven insights and innovation, I combine my expertise in web design with a keen interest in leveraging artificial intelligence to create impactful digital experiences.</p>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------portfolio---------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Certifications</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="CERTIFICATE_LANDING_PAGE_HZS3KTURSJ5S.jpg" alt="">
+                    <div class="layer">
+                        <h3>User Experience Course</h3>
+                    <p> I have completed a course Foundation of User Experience authorised by Google offered through Coursera</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="1698578068231.jpg" alt="">
+                    <div class="layer">
+                        <h3>Summer Training</h3>
+                    <p> I have completed the summer training in Machine Learning offered by Techgyaan Technologies in collaboration with IIT Bombay.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="1693636784383.jpg" alt="">
+                    <div class="layer">
+                        <h3>Full stack development training</h3>
+                    <p> I have completed the full stack development training offered by Dignique Tech labs.</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+<!--------------------------------------Achievements--------------------------->
+<div id="achievements">
+    <h1>Achievements</h1>
+    <div class="achieve">
+        <ul>
+    <li>  Solved over 500 questions on various coding platforms.</li><br>
+    <li>  Executed a comprehensive social media campaign resulting in a 30% increase in engagement, earning a bronze medal
+        during the Social Media Marketing internship at IIT Bombay.</li><br>
+    <li> Selected as an open source contributor in Girlscript Summer of Code 2024.</li><br>
+    <li> Winner of the PROD-G Competition at Cognizance, the premier technical fest at IIT Roorkee.</li><br>
+    <li> 4-star coder on HackerRank.</p></ul></div>
+</div>
+<!--------------------------------------contact--------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>anjalisharma963401@gmail.com</p>
+            <p><i class="fas fa-phone"></i>9634015807</p> 
+            <div class="social-icons">
+                <a href="https://github.com/Anjalisharma011"><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/anjalii_shrmaa_?igsh=MXlzYWlnaGtwM28%3D&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                <a href="@AnjaliS02585811"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/anjali-sharma-5331b1216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="ANJALI SHARMA RESUME.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2 ">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyo3h0N5n-vmyo6c-kEbYZ4N32SlnH4JWBJO_4PAjMVe_Q5vPNnIkUuN2GxL27P2Sc/exec'
+        const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
